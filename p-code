@@ -1,20 +1,20 @@
 import cv2
 
-# Read the image.
+# Read the image
 img = cv2.imread('grape.jpg')
 
-# Convert the image to grayscale.
+# Convert the image to grayscale
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Apply any necessary preprocessing steps here (e.g., smoothing, thresholding).
 
-# Apply grape detection algorithm - this part needs to be implemented based on your specific algorithm
+# Apply grape detection algorithm - this part needs to be implemented based on your specific algorithm.
 # For example, you could use techniques like contour detection, color thresholding, or machine learning-based approaches
 
 # Display or save the final image - this part needs to be implemented based on your specific requirement
 # For example, you could use cv2.imshow() to display the image or cv2.imwrite() to save it
 
-# Example code for displaying the image:
+# Example code for displaying the image
 # cv2.imshow('Grape Detection', img)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
