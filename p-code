@@ -1,6 +1,6 @@
 import cv2
 
-# Read the image.
+# Read the image.050
 img = cv2.imread('grape.jpg')
 
 # Convert the image to grayscale.
